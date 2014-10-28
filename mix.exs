@@ -4,7 +4,7 @@ defmodule Couchdb.Mixfile do
   def project do
     [app: :couchdb,
      version: "0.0.1",
-     elixir: "~> 0.15.1",
+     elixir: "> 1.0.0",
      description: description,
      package: package,
      deps: deps]
@@ -30,7 +30,7 @@ defmodule Couchdb.Mixfile do
     [
       {:hackney, "~> 0.13.1"},
       {:jsex, "~> 2.0.0"},
-      {:ex_doc, github: "elixir-lang/ex_doc", tag: "v0.5.2"}
+      {:ex_doc, github: "elixir-lang/ex_doc"}
 
     ]
   end
